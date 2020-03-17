@@ -3,15 +3,19 @@ This is a sample using viewpager and tablayout.
 
 add viewpager2 and material
 
+<code>
 implementation 'androidx.viewpager2:viewpager2:1.0.0'
 implementation 'com.google.android.material:material:1.2.0-alpha05'
+</code>
 
 and style
 
+<code>
 <style name="CustomTabText" parent="TextAppearance.Design.Tab">
     <item name="android:textSize">22sp</item>
     <item name="android:textStyle">bold</item>
 </style>
+</code>
 
 and edit string.xml
 

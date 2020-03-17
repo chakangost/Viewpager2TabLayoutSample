@@ -32,14 +32,6 @@ and edit string.xml
 
 add edit activity_main.xml
 
-<code>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@android:color/white"
-    android:orientation="vertical">
-</code>
 
     <com.google.android.material.tabs.TabLayout
         android:id="@+id/tabs"
@@ -58,21 +50,12 @@ add edit activity_main.xml
         android:id="@+id/viewpager"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
-<code>
-</LinearLayout>
-</code>
+
 
 and create fragment1~4.kt
 
-package com.android.viewpager2tabsample
 
-import android.os.Bundle
-import android.view.LayoutInflater
-import android.view.View
-import android.view.ViewGroup
-import androidx.fragment.app.Fragment
 
-class Tab1Fragment : Fragment() {
 
     override fun onCreateView (
         inflater: LayoutInflater,
@@ -87,15 +70,12 @@ class Tab1Fragment : Fragment() {
             return Tab1Fragment()
         }
     }
-}
+
 
 and create fragment_tab1.xml ~ 4
 
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
+
+
 
     <TextView
         android:layout_width="wrap_content"
@@ -106,12 +86,11 @@ and create fragment_tab1.xml ~ 4
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
 
 and create ResourceStore
 
-package com.android.viewpager2tabsample
 
+<code>
 interface ResourceStore {
     companion object {
         val tabList = listOf(
@@ -122,6 +101,7 @@ interface ResourceStore {
             Tab3Fragment.create(), Tab4Fragment.create())
     }
 }
+</code>
 
 
 

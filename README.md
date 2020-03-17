@@ -22,6 +22,7 @@ and edit string.xml
 
 add edit activity_main.xml
 
+<code>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
@@ -48,6 +49,7 @@ add edit activity_main.xml
         android:layout_height="match_parent"/>
 
 </LinearLayout>
+</code>
 
 and create fragment1~4.kt
 

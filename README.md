@@ -136,7 +136,9 @@ and MainActivity code
     }
 
 
+#caution
 
+You must rending viewpager first.
 
 
 

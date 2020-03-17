@@ -27,16 +27,16 @@ and style
 </style>
 </code>
 
-
+        
     
 and edit string.xml 
     
-<pre><code>
+
     <string name="tab1">first tab</string>
     <string name="tab2">second tab</string>
     <string name="tab3">third tab</string>
     <string name="tab4">fourth tab</string>
-</code></pre>
+
 
 
 add edit activity_main.xml

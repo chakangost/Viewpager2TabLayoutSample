@@ -105,5 +105,38 @@ interface ResourceStore {
 
 
 
+and MainActivity code
+
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_main)
+
+        renderViewPager()
+        renderTabLayer()
+    }
+
+    private fun renderViewPager() {
+        viewpager.adapter = object : FragmentStateAdapter(this) {
+
+            override fun createFragment(position: Int): Fragment {
+                return ResourceStore.pagerFragments[position]
+            }
+
+            override fun getItemCount(): Int {
+                return ResourceStore.tabList.size
+            }
+        }
+    }
+
+    private fun renderTabLayer() {
+        TabLayoutMediator(tabs, viewpager) { tab, position ->
+            tab.text = getString(ResourceStore.tabList[position])
+        }.attach()
+    }
+
+
+
+
 
 

@@ -94,7 +94,7 @@ and create fragment_tab1.xml ~ 4
 and create ResourceStore
 
 
-<code>
+<pre><code>{
 interface ResourceStore {
     companion object {
         val tabList = listOf(
@@ -105,7 +105,8 @@ interface ResourceStore {
             Tab3Fragment.create(), Tab4Fragment.create())
     }
 }
-</code>
+}</code></pre>
+
 
 
 

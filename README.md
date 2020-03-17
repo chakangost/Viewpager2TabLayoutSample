@@ -26,7 +26,9 @@ and style
     <item name="android:textStyle">bold</item>
 </style>
 </code>
-
+        
+            
+                
         
     
 and edit string.xml 

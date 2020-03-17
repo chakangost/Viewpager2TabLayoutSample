@@ -5,10 +5,12 @@ add viewpager2 and material
 
 <code>
 implementation 'androidx.viewpager2:viewpager2:1.0.0'
+    
 implementation 'com.google.android.material:material:1.2.0-alpha05'
 </code>
 
 and style
+
 
 <code>
 <style name="CustomTabText" parent="TextAppearance.Design.Tab">
@@ -17,12 +19,16 @@ and style
 </style>
 </code>
 
+
 and edit string.xml
 
+<code>
 <string name="tab1">first tab</string>
 <string name="tab2">second tab</string>
 <string name="tab3">third tab</string>
 <string name="tab4">fourth tab</string>
+</code>
+
 
 add edit activity_main.xml
 
@@ -33,6 +39,7 @@ add edit activity_main.xml
     android:layout_height="match_parent"
     android:background="@android:color/white"
     android:orientation="vertical">
+</code>
 
     <com.google.android.material.tabs.TabLayout
         android:id="@+id/tabs"
@@ -51,7 +58,7 @@ add edit activity_main.xml
         android:id="@+id/viewpager"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
-
+<code>
 </LinearLayout>
 </code>
 

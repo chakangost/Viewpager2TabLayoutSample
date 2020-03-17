@@ -1,4 +1,8 @@
 # viewpager2tablayoutSample
+
+/Android studio 3.6.1
+/Kotlin, androidx, compileSdkVersion29, buildToolsVersion 29.0.3, minSdkVersion23, targetSdkVersion 29
+
 This is a sample using viewpager and tablayout.
 
 add viewpager2 and material

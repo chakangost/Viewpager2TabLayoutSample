@@ -154,7 +154,7 @@ and MainActivity code
 You must rending viewpager first.
 
 
-##License
+## License
 >Copyright 2020 chakangost
 >
 >Licensed under the Apache License, Version 2.0 (the "License");

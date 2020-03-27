@@ -8,9 +8,9 @@
 >minSdkVersion23    
 >targetSdkVersion 29    
 
-This is a sample using viewpager and tablayout.
+## This is a sample using viewpager and tablayout.
 
-add viewpager2 and material
+>input app.gradle viewpager2 and material
 
 <code>
 implementation 'androidx.viewpager2:viewpager2:1.0.0'
@@ -19,7 +19,7 @@ implementation 'com.google.android.material:material:1.2.0-alpha05'
 </code>
 
 
-and style
+>and modify style
 
 <code>
 <style name="CustomTabText" parent="TextAppearance.Design.Tab">
@@ -32,7 +32,7 @@ and style
                 
         
     
-and edit string.xml 
+>and edit string.xml 
     
 
     <string name="tab1">first tab</string>
@@ -42,7 +42,7 @@ and edit string.xml
 
 
 
-add edit activity_main.xml
+>add edit activity_main.xml
 
 
     <com.google.android.material.tabs.TabLayout
@@ -64,7 +64,7 @@ add edit activity_main.xml
         android:layout_height="match_parent"/>
 
 
-and create fragment1~4.kt
+>and create fragment1~4.kt
 
 
 
@@ -84,7 +84,7 @@ and create fragment1~4.kt
     }
 
 
-and create fragment_tab1.xml ~ 4
+>and create fragment_tab1.xml ~ 4
 
 
 
@@ -99,7 +99,7 @@ and create fragment_tab1.xml ~ 4
         app:layout_constraintTop_toTopOf="parent" />
 
 
-and create ResourceStore
+>and create ResourceStore
 
 
 <pre><code>
@@ -118,7 +118,7 @@ interface ResourceStore {
 
 
 
-and MainActivity code
+>and create MainActivity
 
 
     override fun onCreate(savedInstanceState: Bundle?) {

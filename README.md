@@ -149,9 +149,9 @@ and MainActivity code
     }
 
 
-#caution
+## caution
 
-You must rending viewpager first.
+>You must rending viewpager first.
 
 
 ## License

@@ -1,4 +1,4 @@
-# viewpager2tablayoutSample
+# viewpager2 & tablayout with fragment Sample
 
 >Android studio 3.6.1   
 >Kotlin1.3.61, androidx 

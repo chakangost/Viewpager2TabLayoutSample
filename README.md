@@ -19,7 +19,7 @@ implementation 'com.google.android.material:material:1.2.0-alpha05'
 </code>
 
 
->and modify style
+>and modify style 
 
 <code>
 <style name="CustomTabText" parent="TextAppearance.Design.Tab">

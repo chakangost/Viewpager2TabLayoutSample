@@ -1,4 +1,4 @@
-# Tablayout fragments with viewpager2
+# Tab layout fragments with viewpager2
 # Kotlin
 
 >Android studio 3.6.1   

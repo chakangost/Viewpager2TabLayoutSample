@@ -1,12 +1,11 @@
 # TabLayout fragments with viewpager2
 # Kotlin
 
->Android studio 3.6.1   
->Kotlin1.3.61, androidx 
->compileSdkVersion29    
->buildToolsVersion 29.0.3   
->minSdkVersion23    
->targetSdkVersion 29    
+>Android studio Bumblebee | 2021.1.1 Patch 2
+>Kotlin 1.6.10, androidx 
+>compileSdk 32   
+>minSdk 23    
+>targetSdk 32    
 
 ## This is a sample using viewpager and tablayout.
 
@@ -15,7 +14,7 @@
 <code>
 implementation 'androidx.viewpager2:viewpager2:1.0.0'
     
-implementation 'com.google.android.material:material:1.2.0-alpha05'
+implementation 'com.google.android.material:material:1.6.0-alpha03'
 </code>
 
 
